@@ -19,6 +19,32 @@ Real-time K-Nearest Neighbour (KNN) classifier implemented in pure RTL on ZedBoa
 - **Interface:** UART 9600 baud
 
 ## Project Structure
+KNN-FPGA-Classifier/
+│
+├── README.md                 # Project documentation
+├── .gitignore               # Files to ignore
+│
+├── src/                     # Source files
+│   ├── knn_top.v
+│   ├── control_fsm.v
+│   ├── Dataset.v
+│   ├── distance_unit.v
+│   ├── knn_selector.v
+│   ├── majority_vote.v
+│   ├── latency_counter.v
+│   ├── uart_tx.v
+│   ├── data_memory.v
+│   └── dataset_memory.v
+│
+├── constraints/             # XDC files
+│   └── zedboard.xdc
+│
+├── docs/                    # Documentation
+│   ├── block_diagram.png
+│   └── presentation.pdf
+│
+└── simulation/              # Testbenches (if any)
+    └── knn_tb.v
 
 ## How to Use
 1. Open project in Vivado
