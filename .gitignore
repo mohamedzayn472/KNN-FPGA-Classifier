@@ -1,0 +1,21 @@
+# Vivado temporary files
+*.jou
+*.log
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.xpr
+webtalk*
+vivado*
+.Xil/
+
+# Simulation files
+xsim.dir/
+*.wdb
+*.wcfg
+
+# OS files
+.DS_Store
+Thumbs.db
