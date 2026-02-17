@@ -1,0 +1,39 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto e60d204e81d446129549a3e5326e0525 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_knn_pipelined_behav xil_defaultlib.tb_knn_pipelined xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/linga/Downloads/knn/knn_top_pipelined.v" Line 5. Module knn_top_pipelined_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/linga/Downloads/knn/dataset_parallel.v" Line 6. Module Dataset_Parallel doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/linga/Downloads/knn/distance_unit_comb.v" Line 7. Module distance_unit_comb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/linga/Downloads/knn/distance_unit_comb.v" Line 7. Module distance_unit_comb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/linga/Downloads/knn/distance_unit_comb.v" Line 7. Module distance_unit_comb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/linga/Downloads/knn/distance_unit_comb.v" Line 7. Module distance_unit_comb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/linga/Downloads/knn/distance_unit_comb.v" Line 7. Module distance_unit_comb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/linga/Downloads/knn/distance_unit_comb.v" Line 7. Module distance_unit_comb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/linga/Downloads/knn/distance_unit_comb.v" Line 7. Module distance_unit_comb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/linga/Downloads/knn/distance_unit_comb.v" Line 7. Module distance_unit_comb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/linga/Downloads/knn/distance_unit_comb.v" Line 7. Module distance_unit_comb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/linga/Downloads/knn/distance_unit_comb.v" Line 7. Module distance_unit_comb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/linga/Downloads/knn/distance_unit_comb.v" Line 7. Module distance_unit_comb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/linga/Downloads/knn/distance_unit_comb.v" Line 7. Module distance_unit_comb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/linga/Downloads/knn/distance_unit_comb.v" Line 7. Module distance_unit_comb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/linga/Downloads/knn/distance_unit_comb.v" Line 7. Module distance_unit_comb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/linga/Downloads/knn/distance_unit_comb.v" Line 7. Module distance_unit_comb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/linga/Downloads/knn/distance_unit_comb.v" Line 7. Module distance_unit_comb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/linga/Downloads/knn/knn_selector_pipelined.v" Line 5. Module knn_selector_pipelined doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/linga/Downloads/knn/majority_vote.v" Line 1. Module majority_vote doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/linga/Downloads/knn/uart_tx.v" Line 1. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Dataset_Parallel
+Compiling module xil_defaultlib.distance_unit_comb
+Compiling module xil_defaultlib.knn_selector_pipelined
+Compiling module xil_defaultlib.majority_vote
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.knn_top_pipelined_default
+Compiling module xil_defaultlib.tb_knn_pipelined
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_knn_pipelined_behav

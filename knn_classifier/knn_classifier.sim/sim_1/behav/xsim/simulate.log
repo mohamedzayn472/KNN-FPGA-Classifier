@@ -1,0 +1,44 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+=================================================================
+Pipelined KNN Classifier Test
+Testing throughput of 1 classification per clock cycle
+=================================================================
+
+Time=55000: Starting continuous input stream...
+Feeding 8 test samples at 1 sample/cycle (demonstrating throughput=1)
+Time=65000: Input[0] = (2, 2, 2)
+Time=75000: Input[1] = (1, 1, 1)
+Time=85000: Input[2] = (3, 3, 3)
+Time=95000: Input[3] = (2, 1, 2)
+Time=105000: Input[4] = (8, 8, 8)
+Time=115000: Input[5] = (9, 9, 9)
+Time=115000: Output[0] = Class 0 (Expected: 0) ÿÿ“ CORRECT
+
+Throughput measurement started at time=115000
+Time=125000: Input[6] = (7, 7, 7)
+Time=125000: Output[1] = Class 0 (Expected: 0) ÿÿ“ CORRECT
+Time=135000: Input[7] = (8, 9, 8)
+Time=135000: Output[2] = Class 0 (Expected: 0) ÿÿ“ CORRECT
+
+Waiting for pipeline to flush and outputs to appear...
+Time=145000: Output[3] = Class 0 (Expected: 0) ÿÿ“ CORRECT
+Throughput: 3 outputs in 2 cycles = 1.50 outputs/cycle
+âœ“ THROUGHPUT = 1 achieved! (within tolerance)
+Time=155000: Output[4] = Class 1 (Expected: 1) ÿÿ“ CORRECT
+
+Throughput measurement started at time=155000
+Time=165000: Output[5] = Class 1 (Expected: 1) ÿÿ“ CORRECT
+Time=175000: Output[6] = Class 1 (Expected: 1) ÿÿ“ CORRECT
+Time=185000: Output[7] = Class 1 (Expected: 1) ÿÿ“ CORRECT
+Throughput: 3 outputs in 2 cycles = 1.50 outputs/cycle
+âœ“ THROUGHPUT = 1 achieved! (within tolerance)
+
+=================================================================
+Test Results:
+Total outputs received: 8
+Correct classifications: 8 / 8
+Accuracy: 100%
+=================================================================
+TEST PASSED - Pipeline working correctly!
+$finish called at time : 545 ns : File "C:/Users/linga/Downloads/knn/tb_knn_pipelined.v" Line 129

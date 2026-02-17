@@ -1,0 +1,12 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/linga/Downloads/knn/dataset_parallel.v,1771282114,verilog,,C:/Users/linga/Downloads/knn/distance_unit_comb.v,,Dataset_Parallel,,,,,,,,
+C:/Users/linga/Downloads/knn/distance_unit_comb.v,1771281335,verilog,,C:/Users/linga/Downloads/knn/knn_selector_pipelined.v,,distance_unit_comb,,,,,,,,
+C:/Users/linga/Downloads/knn/knn_selector_pipelined.v,1771284980,verilog,,C:/Users/linga/Downloads/knn/knn_top_pipelined.v,,knn_selector_pipelined,,,,,,,,
+C:/Users/linga/Downloads/knn/knn_top_pipelined.v,1771282426,verilog,,C:/Users/linga/Downloads/knn/majority_vote.v,,knn_top_pipelined,,,,,,,,
+C:/Users/linga/Downloads/knn/majority_vote.v,1771281335,verilog,,C:/Users/linga/Downloads/knn/uart_tx.v,,majority_vote,,,,,,,,
+C:/Users/linga/Downloads/knn/tb_knn_pipelined.v,1771281858,verilog,,,,tb_knn_pipelined,,,,,,,,
+C:/Users/linga/Downloads/knn/uart_tx.v,1771281335,verilog,,C:/Users/linga/Downloads/knn/tb_knn_pipelined.v,,uart_tx,,,,,,,,
+C:/Users/linga/knn_classifier/knn_classifier.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,

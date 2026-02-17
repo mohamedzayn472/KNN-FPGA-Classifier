@@ -1,0 +1,18 @@
+
+*** Running vivado
+    with args -log knn_top_pipelined.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source knn_top_pipelined.tcl
+
+
+
+****** Vivado v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Tue Feb 17 10:55:27 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source knn_top_pipelined.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 604.512 ; gain = 212.285
+ERROR: [Common 17-69] Command failed: File 'C:/Users/moham/OneDrive/Desktop/Downloads/knn/dataset_parallel.v' does not exist
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 17 10:55:42 2026...

@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/linga/Downloads/knn/dataset_parallel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Dataset_Parallel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/linga/Downloads/knn/distance_unit_comb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module distance_unit_comb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/linga/Downloads/knn/knn_selector_pipelined.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module knn_selector_pipelined
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/linga/Downloads/knn/knn_top_pipelined.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module knn_top_pipelined
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/linga/Downloads/knn/majority_vote.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module majority_vote
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/linga/Downloads/knn/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/linga/Downloads/knn/tb_knn_pipelined.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_knn_pipelined

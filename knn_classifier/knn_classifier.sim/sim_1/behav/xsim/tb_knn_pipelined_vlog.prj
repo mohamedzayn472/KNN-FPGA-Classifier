@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../Downloads/knn/dataset_parallel.v" \
+"../../../../../Downloads/knn/distance_unit_comb.v" \
+"../../../../../Downloads/knn/knn_selector_pipelined.v" \
+"../../../../../Downloads/knn/knn_top_pipelined.v" \
+"../../../../../Downloads/knn/majority_vote.v" \
+"../../../../../Downloads/knn/uart_tx.v" \
+"../../../../../Downloads/knn/tb_knn_pipelined.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
