@@ -19,3 +19,22 @@ Real-time K-Nearest Neighbour (KNN) classifier implemented in pure RTL on ZedBoa
 - **Interface:** UART 9600 baud
 
 ## Project Structure
+
+## How to Use
+1. Open project in Vivado
+2. Generate bitstream
+3. Program ZedBoard
+4. Connect via UART (9600 baud)
+5. Input format: `X Y Z K`
+6. Output: Predicted class
+
+## Performance
+- **Latency:** <1 microsecond
+- **LUT Usage:** 5.35%
+- **Power:** Optimized for embedded
+
+## Authors
+[Your Name/Team Name]
+
+## License
+MIT License
