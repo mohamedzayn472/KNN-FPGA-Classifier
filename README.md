@@ -31,8 +31,5 @@ Real-time K-Nearest Neighbour (KNN) classifier implemented in pure RTL on ZedBoa
 - **LUT Usage:** 5.35%
 - **Power:** Optimized for embedded
 
-## Authors
-[Your Name/Team Name]
-
 ## License
 MIT License
